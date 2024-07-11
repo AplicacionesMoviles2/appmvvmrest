@@ -1,4 +1,8 @@
 package pe.idat.appmvvmrest.posts.data.network.response
 
-class PostResponse {
-}
+data class PostResponse(
+    val userId: Int,
+    val id: Int,
+    val title: String,
+    val body: String
+)
